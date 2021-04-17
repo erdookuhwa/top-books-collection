@@ -15,7 +15,7 @@ const Book = (props) => {
         <h4>{author}</h4>
   
         <button>
-            <a href={link} rel='noreferrer' target='_blank'>Buy</a>
+            <a href={link} rel='noreferrer' target='_blank'>Buy on Amazon</a>
         </button>
   
       </article>
