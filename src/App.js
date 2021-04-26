@@ -11,8 +11,7 @@ function App() {
         {
           books.map( (book, index) => {
             return <Book key={book.index} {...book} />
-          }
-)
+          })
         }  
       </section>
     </div>
